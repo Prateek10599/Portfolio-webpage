@@ -32,6 +32,19 @@ p {
 	font-weight: 300;
 	letter-spacing: .05rem;
 }
+ul {
+	list-style: none;
+	color: white;
+	text-align: left;
+  font-size: 1.5rem;
+  
+}
+  
+li::before {
+	content: "• ";
+	color: white;
+	margin-left: -1em
+}
 .section-title {
 	font-size: 4rem;
 	font-weight: 300;
@@ -324,7 +337,7 @@ p {
 	color: white;
 	text-align: left;
 }
-#services .services-item li {
+#services .services-item li::before {
     color: white;
     font: 1rem;
 
