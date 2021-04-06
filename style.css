@@ -41,7 +41,7 @@ ul {
 }
   
 li::before {
-	content: "• ";
+	/*content: "• ";*/
 	color: white;
 	margin-left: -1em
 }
