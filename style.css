@@ -41,7 +41,7 @@ ul {
 }
   
 li::before {
-	/*content: "• ";*/
+	
 	color: white;
 	margin-left: -1em
 }
@@ -338,6 +338,7 @@ li::before {
 	text-align: left;
 }
 #services .services-item li::before {
+    content: "• ";
     color: white;
     font: 1rem;
 
